@@ -1,9 +1,13 @@
 var path = require('path');
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    FontAwesome: './src/FontAwesome.js',
+    Ionicons: './src/Ionicons.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js',
+    filename: '[name].js',
     libraryTarget: 'commonjs2' // ----------------------
   },
   module: {
