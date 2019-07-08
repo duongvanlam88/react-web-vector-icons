@@ -9,6 +9,7 @@
         ".eslintrc.js": true,
         // ".gitignore": true,
         // "README.md": true,
-        "LICENSE": true
+        "LICENSE": true,
+        "**/dist": false
     }
 }
