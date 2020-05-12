@@ -4,6 +4,9 @@ module.exports = {
     index: './src/index.js',
     FontAwesome: './src/FontAwesome.js',
     Ionicons: './src/Ionicons.js',
+    'lib/create-icon-set-from-fontawesome5': './src/lib/create-icon-set-from-fontawesome5.js',
+    'lib/create-icon-set': './src/lib/create-icon-set.js',
+    'lib/create-multi-style-icon-set': './src/lib/create-multi-style-icon-set.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
